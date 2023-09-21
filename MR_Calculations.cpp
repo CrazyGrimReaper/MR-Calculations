@@ -10,7 +10,7 @@ int main() {
 
     while (runProgram)
     {
-        cout << "Enter how much magic damage you will do: ";
+        cout << "Enter how much raw magic damage you will do (magic damage without resistance added): ";
         cin >> rawMagicDamage;
 
         cout << "Enter how much magic resist the opponent originally has: ";
